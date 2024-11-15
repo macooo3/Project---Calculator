@@ -1,0 +1,58 @@
+body {
+  display: flex;
+
+  justify-content: center;
+}
+
+.calculator {
+  height: 600px;
+  width: 450px;
+  background-color: #d0ebe2;
+  border: 9px solid black;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calc-display {
+  background-color: gray;
+  height: 70px;
+  width: 400px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 50px;
+  padding: 10px;
+  border: 5px solid black;
+}
+.numpad {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  gap: 5px;
+  width: 380px;
+  
+ 
+}
+.btn {
+  height: 80px;
+  width: 80px;
+}
+
+.zero-btn {
+  height: 80px;
+  width: 160px;
+}
+
+.nump, .numpy {
+    background-color: orange;
+}
+.btn, .zero-btn {
+    font-size: 40px;
+    border-radius: 10px;
+}
